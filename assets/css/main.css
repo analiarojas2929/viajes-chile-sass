@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+#quienes-somos {
+  background-color: #343a40;
+}
+#quienes-somos h2 {
+  color: #fff;
+}
+#quienes-somos hr.custom-border {
+  border-color: #fefeff;
+}
+#quienes-somos p {
+  color: #fff;
+}
+
+#destacados h2 {
+  color: #343a40;
+}
+#destacados .card .card-title {
+  color: #fefeff;
+}
+#destacados .card .card-text {
+  color: #343a40;
+}
+
+#testimonios h2, #contacto h2 {
+  color: #fefeff;
+}
+
+.custom-border {
+  border-color: #fefeff !important;
+}
+
+#testimonios .testimonial {
+  margin-bottom: 20px;
+}
+#testimonios .testimonial .testimonial-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+#testimonios .testimonial p {
+  color: #695c52;
+}
+#testimonios .testimonial h3 {
+  color: #695c52;
+}
+
+#contacto .form-label, #contacto .form-check-label {
+  color: #f8f9fa;
+}
+#contacto .btn-primary {
+  background-color: #fefeff;
+  color: #111111;
+  border: none;
+}
+#contacto .contact-info i {
+  color: #fefeff;
+}
+#contacto .contact-info p {
+  color: #f8f9fa;
+}
+
+.hr.custom-border {
+  border-color: #fefeff !important;
+}
+
+.carousel {
+  margin: 0 20px;
+}
+
+.header {
+  background-color: transparent !important;
+}
+
+footer {
+  background-color: #fefeff;
+  color: #fff;
+}
+
+.navbar {
+  background-color: transparent !important;
+  border: none;
+}
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important;
+}
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  color: #ccc !important;
+}
+
+/*# sourceMappingURL=main.css.map */

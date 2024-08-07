@@ -1,0 +1,93 @@
+#quienes-somos {
+    background-color: $secondary-color;
+  
+    h2 {
+      color: $white;
+    }
+  
+    hr.custom-border {
+      @include custom-border;
+    }
+  
+    p {
+      color: $white;
+    }
+  }
+  
+  #destacados {
+    h2 {
+      color: $secondary-color;
+    }
+  
+    .card {
+      .card-title {
+        color: $primary-color;
+      }
+  
+      .card-text {
+        color: $secondary-color;
+      }
+    }
+  }
+  #testimonios, #contacto {
+    h2 {
+        color: $primary-color;
+    }
+}
+
+.custom-border {
+    border-color: $primary-color !important;
+}
+
+#testimonios {
+    .testimonial {
+        margin-bottom: 20px;
+
+        .testimonial-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto; // Center the image
+        }
+
+        p {
+            color: $color-testimonio;
+        }
+
+        h3 {
+            color: $color-testimonio;
+        }
+    }
+}
+
+#contacto {
+    .form-label, .form-check-label {
+        color: $light-color;
+    }
+
+    .btn-primary {
+        background-color: $primary-color;
+        color: $black;
+        border: none;
+    }
+
+    .contact-info {
+        i {
+            color: $primary-color;
+        }
+
+        p {
+            color: $light-color;
+        }
+    }
+}
+
+.hr.custom-border {
+    border-color: $primary-color !important;
+}
+
+
+.carousel {
+    margin: 0 20px ; 
+  }
